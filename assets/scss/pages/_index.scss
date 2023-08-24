@@ -14,7 +14,7 @@
     background: radial-gradient(50% 50.00% at 50% 50.00%, #300871 0%, #000 100%);
   }
   .carousel-background {
-    height: 948px;
+    height: 1080px;
     background: url('../images/carousel_mobile.png') no-repeat;
     background-size: cover;
     background-position: center center;
@@ -40,7 +40,9 @@
     height: 1080px;
     background: radial-gradient(50% 50.00% at 50% 50.00%, #28085C 0%, #000 100%);
   }
-
+  .arrow path {
+    fill: #000000;
+  }
   /* ------------------------------------ */
   .s4 {
     height: 1080px;
