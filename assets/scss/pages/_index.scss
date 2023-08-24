@@ -1,0 +1,59 @@
+.index {
+  .container-xxxl {
+    max-width: 1784px;
+  }
+  /* ------------------------------------ */
+  .s1 {
+    height: 880px;
+    background: url('../images/home_background.png') no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  /* ------------------------------------ */
+  .s2 {
+    background: radial-gradient(50% 50.00% at 50% 50.00%, #300871 0%, #000 100%);
+  }
+  .carousel-background {
+    height: 948px;
+    background: url('../images/carousel_mobile.png') no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .carousel-content {
+    backdrop-filter: blur(12px);
+    .banner-a {
+      background: linear-gradient(90deg, #7000FF 0%, #11002D 100%);
+    }
+    .banner-b {
+      background: linear-gradient(270deg, #7000FF 0%, #11002D 100%);
+    }
+    img {
+      height: 560px;
+      object-fit: cover;
+    }
+  }
+  .customized-carousel-btn {
+    position: inherit;
+  }
+  /* ------------------------------------ */
+  .s3 {
+    height: 1080px;
+    background: radial-gradient(50% 50.00% at 50% 50.00%, #28085C 0%, #000 100%);
+  }
+
+  /* ------------------------------------ */
+  .s4 {
+    height: 1080px;
+    background: radial-gradient(50% 50.00% at 50% 50.00%, #000 0%, #28085C 100%);
+  }
+  /* ------------------------------------ */
+  .s5 {
+    height: 622px;
+    background: #1F0F39;
+  }
+  /* ------------------------------------ */
+  .s6 {
+    height: 876px;
+    background: #000;
+  }
+}
