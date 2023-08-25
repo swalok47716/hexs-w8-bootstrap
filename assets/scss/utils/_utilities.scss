@@ -691,7 +691,44 @@ $utilities: map-merge(
       responsive: true,
       property: letter-spacing,
       values: $spacers
-    )
+    ),
+    "backdrop-filter-blur": (
+      responsive: true,
+      property: backdrop-filter,
+      class: backdrop-blur,
+      values: (
+        1: blur(4px),
+        2: blur(8px),
+        3: blur(12px),
+        4: blur(16px),
+        5: blur(20px)
+      )
+    ),
+    "background-size": (
+      responsive: true,
+      property: background-size,
+      class: bg-size,
+      values: (
+        cover: cover,
+        contain: contain
+      )
+    ),
+    "background-position": (
+      responsive: true,
+      property: background-position,
+      class: bg-position,
+      values: (
+        center: center center
+      )
+    ),
+    "background-repeat": (
+      responsive: true,
+      property: background-repeat,
+      class: bg-repeat,
+      values: (
+        no: no-repeat
+      )
+    ),
     // scss-docs-end utils-visibility
   ),
   $utilities
