@@ -729,6 +729,13 @@ $utilities: map-merge(
         no: no-repeat
       )
     ),
+    "fill": (
+    responsive: true,
+    property: fill,
+    class: fill,
+    state: hover,
+    values: $theme-colors
+    ),
     // scss-docs-end utils-visibility
   ),
   $utilities
