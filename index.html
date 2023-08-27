@@ -11,12 +11,12 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">    <title>index</title>
-  <script type="module" crossorigin src="/hexschool-w8/assets/index-8dd60755.js"></script>
-  <link rel="stylesheet" href="/hexschool-w8/assets/index-1ad4f74a.css">
+  <script type="module" crossorigin src="/hexschool-w8/assets/index-bde31681.js"></script>
+  <link rel="stylesheet" href="/hexschool-w8/assets/index-91eca726.css">
 </head>
 
 <body>
-  <nav class="navbar sticky-top navbar-expand-lg bg-primary border-bottom border-light">
+  <nav class="navbar navbar-expand-lg bg-primary border-bottom border-light fixed-top">
   <div class="container position-relative">
     <a class="navbar-brand fs-5 fs-md-4 link-light" href="#">ALPHABOX+</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -24,9 +24,10 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse font-sans-serif" id="navbarSupportedContent">
-      <ul class="navbar-nav mb-2 mb-lg-0 link-light position-absolute start-50 translate-middle-x">
+      <ul
+        class="navbar-nav link-light position-md-absolute start-md-50 translate-middle-md-x d-flex align-items-center">
         <li class="nav-item">
-          <a class="nav-link active link-light" aria-current="page" href="#">產品</a>
+          <a class="nav-link link-light" href="#">產品</a>
         </li>
         <li class="nav-item">
           <a class="nav-link link-light" href="#">關於我們</a>
@@ -41,7 +42,7 @@
           <a class="nav-link link-light" href="#">聯絡我們</a>
         </li>
       </ul>
-      <ul class="navbar-nav ms-auto">
+      <ul class="navbar-nav ms-auto d-flex align-items-center">
         <li class="nav-item">
           <a href="#" class="nav-link link-light px-3">註冊</a>
         </li>
@@ -49,19 +50,14 @@
           <a href="#" class="nav-link link-light px-3">登入</a>
         </li>
         <li class="nav-item">
-          <a href="#"
-            class="nav-link link-dark px-3 btn btn-light d-flex align-items-center fill-light-hover"><svg
-              xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-              <mask id="mask0_303_5745" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24"
-                height="24">
-                <rect width="24" height="24" fill="#D9D9D9" />
-              </mask>
-              <g mask="url(#mask0_303_5745)">
-                <path
-                  d="M12 14C11.45 14 10.9792 13.8042 10.5875 13.4125C10.1958 13.0208 10 12.55 10 12C10 11.45 10.1958 10.9792 10.5875 10.5875C10.9792 10.1958 11.45 10 12 10C12.55 10 13.0208 10.1958 13.4125 10.5875C13.8042 10.9792 14 11.45 14 12C14 12.55 13.8042 13.0208 13.4125 13.4125C13.0208 13.8042 12.55 14 12 14ZM11 8V3H13V8H11ZM11 21V16H13V21H11ZM16 13V11H21V13H16ZM3 13V11H8V13H3Z"
-                  fill="black" />
-              </g>
-            </svg>訂閱</a>
+          <a href="#" class="nav-link link-dark px-3 btn btn-light d-flex align-items-center fill-light-hover">
+            <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path
+                d="M12 14C11.45 14 10.9792 13.8042 10.5875 13.4125C10.1958 13.0208 10 12.55 10 12C10 11.45 10.1958 10.9792 10.5875 10.5875C10.9792 10.1958 11.45 10 12 10C12.55 10 13.0208 10.1958 13.4125 10.5875C13.8042 10.9792 14 11.45 14 12C14 12.55 13.8042 13.0208 13.4125 13.4125C13.0208 13.8042 12.55 14 12 14ZM11 8V3H13V8H11ZM11 21V16H13V21H11ZM16 13V11H21V13H16ZM3 13V11H8V13H3Z"
+                fill="black" />
+            </svg> -->
+            <span class="subscribe-icon-bg"></span>
+            訂閱</a>
         </li>
       </ul>
       <!-- <form class="d-flex ms-auto" role="search">
