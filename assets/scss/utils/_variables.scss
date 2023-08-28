@@ -301,7 +301,7 @@ $cyans: (
 $primary:       #7000FF; //$blue !default;
 $secondary:     #28085C; //$gray-600 !default;
 $success:       $green !default;
-$info:          $cyan !default;
+$info:          #AD93CF; //$cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $white; //$gray-100 !default;
@@ -574,6 +574,7 @@ $font-size-lg:                $font-size-base * 1.25 !default;
 $font-weight-lighter:         lighter !default;
 $font-weight-light:           300 !default;
 $font-weight-normal:          400 !default;
+$font-weight-medium:          500;
 $font-weight-semibold:        600 !default;
 $font-weight-bold:            700 !default;
 $font-weight-bolder:          bolder !default;
