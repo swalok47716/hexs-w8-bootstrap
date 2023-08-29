@@ -9,7 +9,9 @@
 @import "./pages/index";
 
 // Customized Classes
-@import "./utils/icons";
+@import "./base";
+@import "./components/icons";
+@import "./components/alpha_circle";
 
 // Import all files
 // @import "../../node_modules/bootstrap";
@@ -22,7 +24,7 @@
 // Layout & components
 @import "./root";
 @import "./reboot";
-@import "../../node_modules/bootstrap/scss/type";
+@import "./type";
 @import "../../node_modules/bootstrap/scss/images";
 @import "../../node_modules/bootstrap/scss/containers";
 @import "../../node_modules/bootstrap/scss/grid";

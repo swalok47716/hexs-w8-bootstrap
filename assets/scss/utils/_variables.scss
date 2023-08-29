@@ -301,7 +301,7 @@ $cyans: (
 $primary:       #7000FF; //$blue !default;
 $secondary:     #28085C; //$gray-600 !default;
 $success:       $green !default;
-$info:          $cyan !default;
+$info:          #AD93CF; //$cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $white; //$gray-100 !default;
@@ -396,7 +396,17 @@ $spacers: (
   20: $spacer * 8,
   21: $spacer * 9,
   22: $spacer * 10,
-) !default;
+);
+
+$spacer-tiny: $spacer / 10;
+$spacers-tiny: (
+  0: 0,
+  1: $spacer-tiny * 1,
+  2: $spacer-tiny * 2,
+  3: $spacer-tiny * 3,
+  4: $spacer-tiny * 4,
+  5: $spacer-tiny * 5,
+);
 // scss-docs-end spacer-variables-maps
 
 // Position
@@ -451,8 +461,9 @@ $grid-breakpoints: (
   md: 768px,
   lg: 992px,
   xl: 1200px,
-  xxl: 1400px
-) !default;
+  xxl: 1400px,
+  xxxl: 1884px
+);
 // scss-docs-end grid-breakpoints
 
 @include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
@@ -469,8 +480,9 @@ $container-max-widths: (
   md: 720px,
   lg: 960px,
   xl: 1140px,
-  xxl: 1320px
-) !default;
+  xxl: 1320px,
+  xxxl: 1320px
+);
 // scss-docs-end container-max-widths
 
 @include _assert-ascending($container-max-widths, "$container-max-widths");
@@ -574,6 +586,7 @@ $font-size-lg:                $font-size-base * 1.25 !default;
 $font-weight-lighter:         lighter !default;
 $font-weight-light:           300 !default;
 $font-weight-normal:          400 !default;
+$font-weight-medium:          500;
 $font-weight-semibold:        600 !default;
 $font-weight-bold:            700 !default;
 $font-weight-bolder:          bolder !default;
