@@ -690,8 +690,15 @@ $utilities: map-merge(
     ),
     "letter-spacing": (
       responsive: true,
+      class: ls,
       property: letter-spacing,
       values: $spacers
+    ),
+    "letter-spacing-tiny": (
+      responsive: true,
+      class: ls-tiny,
+      property: letter-spacing,
+      values: $spacers-tiny
     ),
     "backdrop-filter-blur": (
       responsive: true,
@@ -736,6 +743,16 @@ $utilities: map-merge(
     class: fill,
     state: hover,
     values: $theme-colors
+    ),
+    "z-index": (
+      responsive: true,
+      property: z-index,
+      values: (
+        auto: auto,
+        1: 1,
+        2: 2,
+        3: 3
+      )
     ),
     // scss-docs-end utils-visibility
   ),
