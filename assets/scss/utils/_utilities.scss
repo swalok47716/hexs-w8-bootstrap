@@ -69,21 +69,21 @@ $utilities: map-merge(
     ),
     "top": (
       property: top,
-      values: ($position-values, $spacers)
+      values: $position-values
     ),
     "bottom": (
       property: bottom,
-      values: ($position-values, $spacers)
+      values: $position-values
     ),
     "start": (
       property: left,
       class: start,
-      values: ($position-values, $spacers)
+      values: $position-values
     ),
     "end": (
       property: right,
       class: end,
-      values: ($position-values, $spacers)
+      values: $position-values
     ),
     "translate-middle": (
       property: transform,
