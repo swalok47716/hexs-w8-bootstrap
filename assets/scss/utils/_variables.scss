@@ -398,7 +398,7 @@ $spacers: (
   22: $spacer * 10,
 );
 
-$spacer-tiny: $spacer / 10;
+$spacer-tiny: calc($spacer / 10);
 $spacers-tiny: (
   0: 0,
   1: $spacer-tiny * 1,
