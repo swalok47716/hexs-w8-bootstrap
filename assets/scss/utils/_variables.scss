@@ -483,6 +483,7 @@ $container-max-widths: (
   xxl: 1320px,
   xxxl: 1320px
 );
+$container-max-width-xxxl: 1784px;
 // scss-docs-end container-max-widths
 
 @include _assert-ascending($container-max-widths, "$container-max-widths");
