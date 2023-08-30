@@ -1,12 +1,5 @@
-.alphabox-circle {
+.alphabox-circle-rotation {
   width: 196px;
-  height: 196px;
-  background-image: url('../images/circle.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-.circle-rotate {
   animation-name: rotate;
   animation-duration: 4s;
   animation-timing-function: linear;
