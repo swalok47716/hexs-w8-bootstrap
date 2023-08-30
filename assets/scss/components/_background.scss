@@ -25,10 +25,10 @@
   @include gradient-directional(#7000FF, #11002D, 270deg);
 }
 
-.swiper-bg {
+.news-bg {
   @include gradient-radial(#28085C, #000);
 }
 
-.contact-us-bg {
+.swiper-bg {
   @include gradient-radial(#000, #28085C);
 }
