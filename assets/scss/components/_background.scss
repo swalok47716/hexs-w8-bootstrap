@@ -1,0 +1,88 @@
+.hero-bg {
+  height: 1778px;
+  @include gradient-y(#7000FF, #11002D, 0%, 100%);
+
+  @media(min-width: 386px) {
+    height: 2000px;
+  }
+  @media(min-width: 414px) {
+    height: 2200px;
+  }
+  @media(min-width: 508px) {
+    height: 2460px;
+  }
+  @media(min-width: 576px) {
+    height: 880px;
+  }
+  @media(min-width: 634px) {
+    height: 980px;
+  }
+  @media(min-width: 732px) {
+    height: 1080px;
+  }
+  @media(min-width: 832px) {
+    height: 1180px;
+  }
+  @media(min-width: 932px) {
+    height: 1240px;
+  }
+  @media(min-width: 992px) {
+    height: 680px;
+    background-image: url('../images/home_background.png');
+  }
+  @media(min-width: 1200px) {
+    height: 780px;
+  }
+  @media(min-width: 1400px) {
+    height: 830px;
+  }
+  @media(min-width: 1560px) {
+    height: 880px;
+  }
+}
+.hero-diane {
+  content: url('../images/diane_square1.png');
+  @media(min-width: 992px) {
+    content: url('../images/diane.png');
+  }
+}
+.hero-felix {
+  content: url('../images/felix_square1.png');
+  @media(min-width: 992px) {
+    content: url('../images/felix.png');
+  }
+}
+.hero-karina {
+  content: url('../images/karina_square1.png');
+  @media(min-width: 992px) {
+    content: url('../images/karina.png');
+  }
+}
+.hero-vito {
+  content: url('../images/vito_square1.png');
+  @media(min-width: 992px) {
+    content: url('../images/vito.png');
+  }
+}
+
+.carousel-bg {
+  @include gradient-radial(#300871, #000);
+}
+.carousel-bg-left {
+  height: 1080px;
+  background-image: url('../images/carousel_mobile.png')
+}
+.carousel-banner-bg {
+  @include gradient-directional(#7000FF, #11002D, 90deg);
+}
+.carousel-banner-reverse-bg {
+  @include gradient-directional(#7000FF, #11002D, 270deg);
+}
+
+.news-bg {
+  @include gradient-radial(#28085C, #000);
+}
+
+.swiper-bg {
+  @include gradient-radial(#000, #28085C);
+}

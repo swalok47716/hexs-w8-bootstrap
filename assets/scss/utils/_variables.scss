@@ -299,7 +299,7 @@ $cyans: (
 
 // scss-docs-start theme-color-variables
 $primary:       #7000FF; //$blue !default;
-$secondary:     #28085C; //$gray-600 !default;
+$secondary:     #1F0F39; //$gray-600 !default;
 $success:       $green !default;
 $info:          #AD93CF; //$cyan !default;
 $warning:       $yellow !default;
@@ -390,15 +390,21 @@ $spacers: (
   14: $spacer * 3.5,
   15: $spacer * 3.75,
   16: $spacer * 4,
-  17: $spacer * 5,
-  18: $spacer * 6,
-  19: $spacer * 7,
-  20: $spacer * 8,
-  21: $spacer * 9,
-  22: $spacer * 10,
+  17: $spacer * 4.25,
+  18: $spacer * 4.5,
+  19: $spacer * 4.75,
+  20: $spacer * 5,
+  21: $spacer * 5.25,
+  22: $spacer * 5.5,
+  23: $spacer * 5.75,
+  24: $spacer * 6,
+  25: $spacer * 7,
+  26: $spacer * 8,
+  27: $spacer * 9,
+  28: $spacer * 10,
 );
 
-$spacer-tiny: $spacer / 10;
+$spacer-tiny: calc($spacer / 10);
 $spacers-tiny: (
   0: 0,
   1: $spacer-tiny * 1,
@@ -462,7 +468,7 @@ $grid-breakpoints: (
   lg: 992px,
   xl: 1200px,
   xxl: 1400px,
-  xxxl: 1884px
+  xxxl: 1784px
 );
 // scss-docs-end grid-breakpoints
 
@@ -483,6 +489,7 @@ $container-max-widths: (
   xxl: 1320px,
   xxxl: 1320px
 );
+$container-max-width-xxxl: 1784px;
 // scss-docs-end container-max-widths
 
 @include _assert-ascending($container-max-widths, "$container-max-widths");
