@@ -1,0 +1,12 @@
+.hero-bg {
+  height: auto;
+  @include gradient-y(#7000FF, #11002D, 0%, 100%);
+
+  @media(min-width: 992px) {
+    height: 680px;
+    background-image: url('../images/home_background.png');
+  }
+  @media(min-width: 1200px) {
+    height: 880px;
+  }
+}
