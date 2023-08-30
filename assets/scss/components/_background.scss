@@ -11,22 +11,24 @@
   }
 }
 
-// .carousel-content {
-//   .banner-a {
-//     background: linear-gradient(90deg, #7000FF 0%, #11002D 100%);
-//   }
-//   .banner-b {
-//     background: linear-gradient(270deg, #7000FF 0%, #11002D 100%);
-//   }
-// }
-
 .carousel-bg {
   @include gradient-radial(#300871, #000);
 }
-
+.carousel-bg-left {
+  height: 1080px;
+  background-image: url('../images/carousel_mobile.png')
+}
 .carousel-banner {
   @include gradient-directional(#7000FF, #11002D, 90deg);
 }
 .carousel-banner-reverse {
   @include gradient-directional(#7000FF, #11002D, 270deg);
+}
+
+.swiper-bg {
+  @include gradient-radial(#28085C, #000);
+}
+
+.contact-us-bg {
+  @include gradient-radial(#000, #28085C);
 }
