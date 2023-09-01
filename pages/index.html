@@ -157,7 +157,7 @@
               <div class="col-12">
                 <div class="border border-start-0 border-end-0 border-light py-10 px-4">
                   <div class="">
-                    <span></span>
+                    <span class="me-4">✱</span>
                     <span class="fw-bold ls-4 mb-2">2023.06.30</span>
                   </div>
                   <h3 class="fs-7 fw-bold ls-5 mb-3">產品升級公告</h3>
@@ -182,7 +182,7 @@
               <div class="col-lg-6">
                 <div class="h-100 border-end-lg border-bottom border-light py-10 px-4">
                   <div class="">
-                    <span></span>
+                    <span class="me-4">✱</span>
                     <span class="fw-bold ls-4 mb-2">2023.06.30</span>
                   </div>
                   <h3 class="fs-7 fw-bold ls-5 mb-3">限時優惠活動</h3>
@@ -203,7 +203,7 @@
               <div class="col-lg-6">
                 <div class="h-100 border-bottom border-light py-10 px-4">
                   <div class="">
-                    <span></span>
+                    <span class="me-4">✱</span>
                     <span class="fw-bold ls-4 mb-2">2023.04.18</span>
                   </div>
                   <h3 class="fs-7 fw-bold ls-5 mb-3">新功能上線</h3>
@@ -252,9 +252,11 @@
               <div class="swiper mySwiper mb-12">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide p-10">
-                    <p class="fw-bold mb-8">Zona。Taipei</p>
-                    <p class="fw-bold">ALPHABOX+ 真的很夯！每次把它打開，感覺就像是身臨其境一樣。它陪我度過了很多寂寞的時光，讓我在家裡也能享受到優質的休閒時光。</p>
-                    <p class="fw-bold mt-auto">。。ALPHABOX+ Dianne</p>
+                    <div class="ratio ratio-1x1">
+                      <p class="fw-bold mb-8">Zona。Taipei</p>
+                      <p class="fw-bold">ALPHABOX+ 真的很夯！每次把它打開，感覺就像是身臨其境一樣。它陪我度過了很多寂寞的時光，讓我在家裡也能享受到優質的休閒時光。</p>
+                      <p class="fw-bold mt-auto">。。ALPHABOX+ Dianne</p>
+                    </div>
                   </div>
                   <div class="swiper-slide bg-white text-dark fw-bold">Slide2</div>
                   <div class="swiper-slide fw-bold">Slide3</div>
@@ -297,24 +299,24 @@
           slidesPerView: 4,
           spaceBetween: 30,
           direction: "vertical",
-          breakpoints: {
-            768: {
-              direction: "horizontal",
-              slidesPerView: 2.25
-            },
-            992: {
-              direction: "horizontal",
-              slidesPerView: 3.25
-            },
-            1200: {
-              direction: "horizontal",
-              slidesPerView: 3.75
-            },
-            1400: {
-              direction: "horizontal",
-              slidesPerView: 4.5 
-            },
-          },
+          // breakpoints: {
+          //   768: {
+          //     direction: "horizontal",
+          //     slidesPerView: 2.25
+          //   },
+          //   992: {
+          //     direction: "horizontal",
+          //     slidesPerView: 3.25
+          //   },
+          //   1200: {
+          //     direction: "horizontal",
+          //     slidesPerView: 3.75
+          //   },
+          //   1400: {
+          //     direction: "horizontal",
+          //     slidesPerView: 4.5 
+          //   },
+          // },
           pagination: {
             el: ".swiper-pagination",
             type: "progressbar",
