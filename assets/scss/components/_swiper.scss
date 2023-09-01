@@ -1,10 +1,19 @@
+.swiper-mh {
+  height: 1476px !important;
+  @media(min-width: 768px) {
+    height: auto !important;
+  }
+}
 .swiper {
   width: 100%;
   height: 100%;
 }
 
 .swiper-slide {
-  height: 416px;
+  height: 351px;
+  @media(min-width: 768px) {
+    height: 416px !important;
+  }
 }
 .swiper-slide {
   font-family: $font-family-sans-serif;
