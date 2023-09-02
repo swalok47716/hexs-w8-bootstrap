@@ -74,7 +74,17 @@
   @include gradient-radial(#000, #28085C);
 }
 .swiper-bg-watermark {
-  color: rgba(255, 255, 255, 0.04);
-  font-size: 400px !important;
-  text-align: center;
+  display: block;
+  top: 98%;
+  @media(min-width: 576px) {
+    top: 93%;
+  }
+  span {
+    color: rgba(255, 255, 255, 0.04);
+    text-align: center;
+    font-size: 128px !important;
+    @media(min-width: 576px) {
+      font-size: 400px !important;
+    }
+  }
 }
