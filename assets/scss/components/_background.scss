@@ -1,6 +1,9 @@
 .hero-bg {
   @include gradient-y(#7000FF, #11002D, 0%, 100%);
-  aspect-ratio: 375/1700;
+  aspect-ratio: 275/1310;
+  @media(min-width: 375px) {
+    aspect-ratio: 375/1700;
+  }
   @media(min-width: 576px) {
     aspect-ratio: 576/810;
   }
