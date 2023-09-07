@@ -691,6 +691,7 @@ $utilities: map-merge(
         invisible: hidden,
       )
     ),
+    // scss-docs-end utils-visibility
     "object-fit": (
       responsive: true,
       property: object-fit,
@@ -768,7 +769,6 @@ $utilities: map-merge(
         3: 3
       )
     ),
-    // scss-docs-end utils-visibility
   ),
   $utilities
 );
