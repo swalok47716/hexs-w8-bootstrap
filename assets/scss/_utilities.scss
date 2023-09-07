@@ -504,7 +504,7 @@ $utilities: map-merge(
     "font-family": (
       property: font-family,
       class: font,
-      values: (monospace: var(--#{$prefix}font-monospace), serif: var(--#{$prefix}font-serif), sans-serif: var(--#{$prefix}font-sans-serif), noto-serif: ('Noto Serif TC', serif), noto-sans: ('Noto Sans TC', sans-serif))
+      values: (monospace: var(--#{$prefix}font-monospace), serif: var(--#{$prefix}font-serif), sans-serif: var(--#{$prefix}font-sans-serif), noto-serif: ('Noto Serif TC', serif), noto-sans: ('Noto Sans TC', sans-serif), saira-ex:('Saira Extra Condensed', sans-serif))
     ),
     "font-size": (
       rfs: true,
@@ -606,6 +606,7 @@ $utilities: map-merge(
     // scss-docs-start utils-bg-color
     "background-color": (
       property: background-color,
+      state: hover,
       class: bg,
       local-vars: (
         "bg-opacity": 1
@@ -753,20 +754,22 @@ $utilities: map-merge(
       )
     ),
     "fill": (
-    responsive: true,
-    property: fill,
-    class: fill,
-    state: hover,
-    values: $theme-colors
+      responsive: true,
+      property: fill,
+      class: fill,
+      state: hover,
+      values: $theme-colors
     ),
     "z-index": (
       responsive: true,
       property: z-index,
+      class: z,
       values: (
         auto: auto,
         1: 1,
         2: 2,
-        3: 3
+        3: 3,
+        n1: -1
       )
     ),
   ),

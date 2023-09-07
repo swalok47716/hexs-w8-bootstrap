@@ -317,7 +317,8 @@ $theme-colors: (
   "warning":    $warning,
   "danger":     $danger,
   "light":      $light,
-  "dark":       $dark
+  "dark":       $dark,
+  "shadow":     $gray-600
 ) !default;
 // scss-docs-end theme-colors-map
 
@@ -642,6 +643,7 @@ $headings-color:              null !default;
 
 // scss-docs-start display-headings
 $display-font-sizes: (
+  xl: 25rem,
   1: 8rem,
   2: 7rem,
   3: 6rem,
