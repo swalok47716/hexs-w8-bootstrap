@@ -18,7 +18,7 @@
 
 // Layout & components
 @import "./root";
-@import "./reboot";
+@import "../../node_modules/bootstrap/scss/reboot";
 @import "./type";
 @import "../../node_modules/bootstrap/scss/images";
 @import "../../node_modules/bootstrap/scss/containers";
