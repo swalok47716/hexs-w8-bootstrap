@@ -1,5 +1,5 @@
 @import "../../node_modules/bootstrap/scss/functions";
-@import "./utils/variables";
+@import "./variables";
 
 
 @import "./layout/header";
@@ -14,11 +14,11 @@
 // Configuration
 @import "../../node_modules/bootstrap/scss/maps";
 @import "../../node_modules/bootstrap/scss/mixins";
-@import "./utils/utilities";
+@import "./utilities";
 
 // Layout & components
 @import "./root";
-@import "./reboot";
+@import "../../node_modules/bootstrap/scss/reboot";
 @import "./type";
 @import "../../node_modules/bootstrap/scss/images";
 @import "../../node_modules/bootstrap/scss/containers";

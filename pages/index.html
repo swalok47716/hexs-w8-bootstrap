@@ -12,7 +12,7 @@
 <body>
   <%- include('./layout/header'); -%>
     <main class="index">
-      <!-- ------------------------ -->
+      <!-- Hero -->
       <section class="hero-bg bg-size-cover bg-position-center bg-repeat-no">
         <div class="container mw-xxxl pt-6 pt-lg-14 mb-8">
           <div class="row gx-lg-6 gx-xxxl-8 flex-column-reverse flex-lg-row mb-8">
@@ -43,7 +43,7 @@
           </div>
           <div class="position-relative">
             <ul
-              class="list-unstyled row gx-xl-6 gx-xxxl-8 gy-4 gy-sm-6 gy-lg-0 align-items-end position-absolute z-index-1 mt-lg-n19 mt-xxxl-n24">
+              class="list-unstyled row gx-xl-6 gx-xxxl-8 gy-4 gy-sm-6 gy-lg-0 align-items-end position-absolute z-1 mt-lg-n19 mt-xxxl-n24">
               <li class="col-sm-6 col-lg-3">
                 <a href="#" class="d-inline-block">
                   <img src="" alt="" class="hero-diane">
@@ -68,7 +68,7 @@
           </div>
         </div>
       </section>
-      <!-- ------------------------ -->
+      <!-- Carousel -->
       <section class="carousel-bg position-relative">
         <div class="carousel-bg-left bg-size-cover bg-position-center bg-repeat-no w-50"></div>
         <div class="carousel-content position-absolute top-0 start-0 w-100 h-100 pt-27 backdrop-blur-3">
@@ -148,7 +148,7 @@
           </div>
         </div>
       </section>
-      <!-- ------------------------ -->
+      <!-- News -->
       <section class="news-bg">
         <div class="container">
           <div class="pt-15 pt-sm-28 pb-20 pb-sm-10 font-sans-serif text-light">
@@ -224,7 +224,7 @@
             </div>
             <div class="d-flex justify-content-center">
               <div class="position-relative mb-0 mb-sm-24">
-                <div class="position-absolute top-50 start-50 translate-middle z-index-1 bg-dark">
+                <div class="position-absolute top-50 start-50 translate-middle z-1 bg-dark">
                   <span class="d-inline-block fw-bold text-center">查看更多</span>
                 </div>
                 <img src="../assets/images/circle.png" alt="" class="alphabox-circle-rotation px-8">
@@ -234,11 +234,11 @@
           </div>
         </div>
       </section>
-      <!-- ------------------------ -->
+      <!-- Client Reviews -->
       <section class="swiper-bg position-relative overflow-hidden font-sans-serif text-white user-select-none">
         <div class="w-100">
-          <div class="w-13489 position-absolute start-50 translate-middle" style="top: 93%;">
-            <span class="swiper-bg-watermark d-block font-serif">ALPHABOX+</span>
+          <div class="position-absolute start-50 translate-middle swiper-bg-watermark">
+            <span class="font-serif">ALPHABOX+</span>
           </div>
         </div>
         <div class="container pt-20 pt-xxl-28 pb-20 pb-md-10">
@@ -283,13 +283,156 @@
           <span class="d-none d-md-block fw-bold">若您有任何疑問或建議，歡迎隨時與我們聯絡，我們將竭誠為您解答。</span>
         </div>
       </section>
-      <!-- ------------------------ -->
-      <section class="bg-secondary bg-hover-primary">
-        <div class="container"></div>
+      <!-- Contact Us -->
+      <section class="bg-secondary">
+        <div class="container py-27 text-light">
+          <div class="row gy-6">
+            <div class="col-md-5">
+              <h2 class="fs-3 fw-bold ls-10 ls-md-8 ls-lg-12 me-md-n8 mb-5">聯絡我們</h2>
+              <p class="d-flex align-items-center gap-2 mb-9 mb-md-14">
+                <span class="pb-3 pe-3 bg-light d-inline-block rounded-circle"></span>
+                <span class="pb-3 pe-26 bg-light d-inline-block rounded-pill"></span>
+              </p>
+              <p class="fw-bold mb-1">讓科技成為您的最佳夥伴</p>
+              <p class="fw-bold">立即體驗神奇功能並享限時優惠！</p>
+            </div>
+            <div class="col-md-7">
+              <span class="d-inline-block display-5 lh-1">✱</span>
+              <form class="d-flex flex-column">
+                <div class="mb-4">
+                  <input type="email" id="inputEmail" placeholder="EMAIL"
+                    class="form-control w-100 font-sans-serif py-2 ps-2">
+                </div>
+                <div class="mb-6">
+                  <textarea id="inputComments" rows="4" placeholder="COMMENTS"
+                    class="form-control w-100 font-sans-serif py-2 ps-2"></textarea>
+                </div>
+                <button type="submit"
+                  class="btn btn-primary w-50 d-flex align-items-center gap-1 py-2 align-self-end justify-content-center"><span
+                    class="submit-icon-bg"></span>送出</button>
+              </form>
+            </div>
+          </div>
+        </div>
       </section>
-      <!-- ------------------------ -->
-      <section class="s6 bg-dark">
-        <div class="container"></div>
+      <!-- Cards of Characters -->
+      <section class="bg-shadow overflow-x-hidden">
+        <div class="container-fluid px-0">
+          <div class="row" style="--bs-gutter-x: 0.1rem; --bs-gutter-y: 0.1rem;">
+            <div class="col-6 col-lg-3">
+              <div class="position-relative z-1">
+                <img src="../assets/images/diane_vertical.png" alt=""
+                  class="position-absolute w-100 h-100 object-fit-cover z-n1">
+                <div class="bg-dark position-absolute w-100 h-100 opacity-50 z-n1"></div>
+                <a href="#" class="link-light">
+                  <div class="bg-dark bg-transparent-hover d-flex flex-column align-items-center py-6 px-3">
+                    <span class="d-block display-xl font-saira-ex mb-5">1</span>
+                    <span class="d-block fs-4 mb-5 mb-lg-20">Diane</span>
+                    <div class="align-items-center">
+                      <p>
+                        <span class="d-block fw-bold">知識型</span>
+                        <span class="d-block">學術領導/知識分享/智能問答</span>
+                      </p>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="155" height="24" viewBox="0 0 155 24" fill="none">
+                        <mask id="mask0_6066_6" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
+                          width="155" height="24">
+                          <rect width="155" height="24" fill="#D9D9D9" />
+                        </mask>
+                        <g mask="url(#mask0_6066_6)">
+                          <path d="M142 19L145.425 13H2V11H145.425L142 5L153 12L142 19Z" fill="white" />
+                        </g>
+                      </svg>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-6 col-lg-3">
+              <div class="position-relative z-1">
+                <img src="../assets/images/felix_vertical.png" alt=""
+                  class="position-absolute w-100 h-100 object-fit-cover z-n1">
+                <div class="bg-dark position-absolute w-100 h-100 opacity-50 z-n1"></div>
+                <a href="#" class="link-light">
+                  <div class="bg-dark bg-transparent-hover d-flex flex-column align-items-center py-6 px-3">
+                    <span class="d-block display-xl font-saira-ex mb-5">2</span>
+                    <span class="d-block fs-4 mb-5 mb-lg-20">Felix</span>
+                    <div class="align-items-center">
+                      <p>
+                        <span class="d-block fw-bold">娛樂型</span>
+                        <span class="d-block">音樂播放/語音互動/遊戲陪伴</span>
+                      </p>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="155" height="24" viewBox="0 0 155 24" fill="none">
+                        <mask id="mask0_6066_6" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
+                          width="155" height="24">
+                          <rect width="155" height="24" fill="#D9D9D9" />
+                        </mask>
+                        <g mask="url(#mask0_6066_6)">
+                          <path d="M142 19L145.425 13H2V11H145.425L142 5L153 12L142 19Z" fill="white" />
+                        </g>
+                      </svg>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-6 col-lg-3">
+              <div class="position-relative z-1">
+                <img src="../assets/images/karina_verticalgle.png" alt=""
+                  class="position-absolute w-100 h-100 object-fit-cover z-n1">
+                <div class="bg-dark position-absolute w-100 h-100 opacity-50 z-n1"></div>
+                <a href="#" class="link-light">
+                  <div class="bg-dark bg-transparent-hover d-flex flex-column align-items-center py-6 px-3">
+                    <span class="d-block display-xl font-saira-ex mb-5">3</span>
+                    <span class="d-block fs-4 mb-5 mb-lg-20">Karina</span>
+                    <div class="align-items-center">
+                      <p>
+                        <span class="d-block fw-bold">生活型</span>
+                        <span class="d-block">健康提醒/日程安排/智能家居</span>
+                      </p>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="155" height="24" viewBox="0 0 155 24" fill="none">
+                        <mask id="mask0_6066_6" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
+                          width="155" height="24">
+                          <rect width="155" height="24" fill="#D9D9D9" />
+                        </mask>
+                        <g mask="url(#mask0_6066_6)">
+                          <path d="M142 19L145.425 13H2V11H145.425L142 5L153 12L142 19Z" fill="white" />
+                        </g>
+                      </svg>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-6 col-lg-3">
+              <div class="position-relative z-1">
+                <img src="../assets/images/vito_vertical.png" alt=""
+                  class="position-absolute w-100 h-100 object-fit-cover z-n1">
+                <div class="bg-dark position-absolute w-100 h-100 opacity-50 z-n1"></div>
+                <a href="#" class="link-light">
+                  <div class="bg-dark bg-transparent-hover d-flex flex-column align-items-center py-6 px-3">
+                    <span class="d-block display-xl font-saira-ex mb-5">4</span>
+                    <span class="d-block fs-4 mb-5 mb-lg-20">Vito</span>
+                    <div class="align-items-center">
+                      <p>
+                        <span class="d-block fw-bold">情感型</span>
+                        <span class="d-block">情感識別/心情分析/心靈支持</span>
+                      </p>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="155" height="24" viewBox="0 0 155 24" fill="none">
+                        <mask id="mask0_6066_6" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
+                          width="155" height="24">
+                          <rect width="155" height="24" fill="#D9D9D9" />
+                        </mask>
+                        <g mask="url(#mask0_6066_6)">
+                          <path d="M142 19L145.425 13H2V11H145.425L142 5L153 12L142 19Z" fill="white" />
+                        </g>
+                      </svg>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
     <%- include('./layout/footer'); -%>
