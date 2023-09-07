@@ -288,21 +288,36 @@
         <div class="container py-27 text-light">
           <div class="row gy-6">
             <div class="col-md-5">
-              <h2 class="fs-3 fw-bold ls-10 ls-md-8 ls-lg-12 me-md-n8 mb-4">聯絡我們</h2>
-              <span></span>
+              <h2 class="fs-3 fw-bold ls-10 ls-md-8 ls-lg-12 me-md-n8 mb-5">聯絡我們</h2>
+              <p class="d-flex align-items-center gap-2 mb-9 mb-md-14">
+                <span class="pb-3 pe-3 bg-light d-inline-block rounded-circle"></span>
+                <span class="pb-3 pe-26 bg-light d-inline-block rounded-pill"></span>
+              </p>
               <p class="fw-bold mb-1">讓科技成為您的最佳夥伴</p>
               <p class="fw-bold">立即體驗神奇功能並享限時優惠！</p>
             </div>
             <div class="col-md-7">
-              <span class="display-5 lh-1">✱</span>
-
+              <span class="d-inline-block display-5 lh-1">✱</span>
+              <form class="d-flex flex-column">
+                <div class="mb-4">
+                  <input type="email" id="inputEmail" placeholder="EMAIL" class="form-control w-100 font-sans-serif py-2 ps-2">
+                </div>
+                <div class="mb-6">
+                  <textarea id="inputComments" rows="4" placeholder="COMMENTS" class="form-control w-100 font-sans-serif py-2 ps-2"></textarea>
+                </div>
+                <button type="submit"
+                  class="btn btn-primary w-50 d-flex align-items-center gap-1 py-2 align-self-end justify-content-center"><span
+                    class="submit-icon-bg"></span>送出</button>
+              </form>
             </div>
           </div>
         </div>
       </section>
       <!-- Cards of Characters -->
       <section class="s6 bg-dark">
-        <div class="container"></div>
+        <div class="container">
+
+        </div>
       </section>
     </main>
     <%- include('./layout/footer'); -%>
