@@ -301,7 +301,8 @@ $cyans: (
 $primary:       #7000FF; //$blue !default;
 $secondary:     #1F0F39; //$gray-600 !default;
 $success:       $green !default;
-$info:          #AD93CF; //$cyan !default;
+$info:          #E9E2F3; //$cyan !default;
+$dark-info:     #AD93CF;
 $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $white; //$gray-100 !default;
@@ -314,6 +315,7 @@ $theme-colors: (
   "secondary":  $secondary,
   "success":    $success,
   "info":       $info,
+  "dark-info":  $dark-info,
   "warning":    $warning,
   "danger":     $danger,
   "light":      $light,
@@ -597,7 +599,7 @@ $font-weight-normal:          400 !default;
 $font-weight-medium:          500;
 $font-weight-semibold:        600 !default;
 $font-weight-bold:            700 !default;
-$font-weight-bolder:          bolder !default;
+$font-weight-bolder:          900; //bolder !default;
 
 $font-weight-base:            $font-weight-normal !default;
 
