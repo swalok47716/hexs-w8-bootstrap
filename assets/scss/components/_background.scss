@@ -58,9 +58,12 @@
 .carousel-bg {
   @include gradient-radial(#300871, #000);
 }
-.carousel-bg-left {
-  height: 1080px;
-  background-image: url('../images/carousel_mobile.png')
+.carousel-bg-img {
+  height: 791px;
+  background-image: url('../images/carousel_mobile.png');
+  @media(min-width: 768px) {
+    height: 1080px;
+  }
 }
 .carousel-banner-bg {
   @include gradient-directional(#7000FF, #11002D, 90deg);
