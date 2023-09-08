@@ -113,6 +113,15 @@ $utilities: map-merge(
         0: 0,
       )
     ),
+    "border-bottom-dotted": (
+      responsive: true,
+      property: border-bottom,
+      class: border-bottom-dotted,
+      values: (
+        null: 2px dotted var(--#{$prefix}border-color),
+        0: 0,
+      )
+    ),
     "border-top": (
       responsive: true,
       property: border-top,
@@ -155,12 +164,6 @@ $utilities: map-merge(
       ),
       values: $utilities-border-colors
     ),
-    // "border-width": (
-    //   css-var: true,
-    //   css-variable-name: border-width,
-    //   class: border,
-    //   values: $border-widths
-    // ),
     "border-width": (
       property: border-width,
       class: border,
@@ -772,6 +775,15 @@ $utilities: map-merge(
         n1: -1
       )
     ),
+    "border-style": (
+      responsive: true,
+      property: border-style,
+      values: (
+        solid: solid,
+        dotted: dotted,
+        dashed: dashed
+      )
+    )
   ),
   $utilities
 );

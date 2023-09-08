@@ -41,3 +41,19 @@ $submit-icon-bg:  url('data:image/svg+xml, <svg xmlns="http://www.w3.org/2000/sv
     transform: rotate(360deg);
   }
 }
+
+.seperator-sm {
+  display: inline-block;
+  padding-bottom: 8px;
+  padding-right: 8px;
+  border-radius: 50%;
+  margin-left: 7px;
+  margin-right: 8px;
+}
+.seperator {
+  display: inline-block;
+  padding-bottom: 16px;
+  padding-right: 16px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
