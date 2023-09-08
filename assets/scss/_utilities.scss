@@ -95,6 +95,7 @@ $utilities: map-merge(
       values: $position-values
     ),
     "translate-middle": (
+      responsive: true,
       property: transform,
       class: translate-middle,
       values: (
@@ -609,6 +610,7 @@ $utilities: map-merge(
     // scss-docs-start utils-bg-color
     "background-color": (
       property: background-color,
+      responsive: true,
       state: hover,
       class: bg,
       local-vars: (
