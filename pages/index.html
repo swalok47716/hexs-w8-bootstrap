@@ -23,7 +23,8 @@
             </div>
             <div class="col-lg-6">
               <div class="d-flex flex-column align-items-center">
-                <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week8-ai/circle.png" alt="" class="alphabox-circle-rotation mb-8 mb-lg-14">
+                <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week8-ai/circle.png"
+                  alt="" class="alphabox-circle-rotation mb-8 mb-lg-14">
                 <h1 class="text-light fs-6 fs-lg-4 ls-3 ls-sm-6 ls-xxxl-20 me-xxxl-n20">ALPHABOX+</h1>
                 <h2 class="font-sans-serif text-light fw-bold ls-tiny-3 ls-lg-4 text-center">擁抱未來科技，專屬您的3D立體投影陪伴機器人</h2>
               </div>
@@ -74,7 +75,7 @@
       </section>
       <!-- Carousel -->
       <section class="carousel-bg position-relative">
-        <div class="carousel-bg-left bg-size-cover bg-position-center bg-repeat-no w-50"></div>
+        <div class="carousel-bg-img bg-size-cover bg-position-center bg-repeat-no w-100 w-lg-50"></div>
         <div class="carousel-content position-absolute top-0 start-0 w-100 h-100 pt-27 backdrop-blur-3">
           <div class="container mw-xxxl">
             <div class="carousel-banner-bg py-5 mb-2"></div>
@@ -85,66 +86,62 @@
           </div>
           <div class="border border-bottom-0 border-light mb-8"></div>
           <div class="container mw-xxxl">
-            <div id="indexCarousel" class="carousel slide d-flex mb-8" data-bs-ride="false">
-              <button class="carousel-control-prev position-static d-none d-lg-flex" type="button"
-                data-bs-target="#indexCarousel" data-bs-slide="prev">
-                <svg xmlns="http://www.w3.org/2000/svg" width="180" height="48" viewBox="0 0 180 48" fill="none">
-                  <mask id="mask0_2013_1238" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="180"
-                    height="48">
-                    <rect width="180" height="48" fill="#28085C" />
-                  </mask>
-                  <g mask="url(#mask0_2013_1238)">
-                    <path d="M26 38L4 24L26 10L19.15 22H176V26H19.15L26 38Z" fill="white" />
-                  </g>
-                </svg>
-                <span class="carousel-control-prev-icon-bg"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="../assets/images/carousel.png" class="d-block w-100 object-fit-cover" alt="..."
-                    style="height: 560px;">
-                  <div
-                    class="carousel-caption d-flex flex-column justify-content-center align-items-end start-0 end-0 h-100 me-10 text-end">
-                    <h2 class="display-3">01</h2>
-                    <h3 class="fs-4 fw-bold ls-8 me-n8 mb-4">立體投影技術</h3>
-                    <p class="fw-bold">透過高科技立體投影技術，讓您感受真實的科技世界。</p>
-                  </div>
+            <div class="row align-items-center justify-content-between g-0 mb-8">
+              <!--  左箭頭  -->
+              <div class="col-1 d-none d-md-block">
+                <div class="swiper-button-prev">
+                  <img src="https://hackmd.io/_uploads/BJUmHUm6n.png" alt="left arrow" class="img-fluid rotate">
                 </div>
-                <div class="carousel-item">
-                  <img src="../assets/images/carousel.png" class="d-block w-100 object-fit-cover" alt="..."
-                    style="height: 560px;">
-                  <div
-                    class="carousel-caption d-flex flex-column justify-content-center align-items-end start-0 end-0 h-100 me-10 text-end">
-                    <h2 class="display-3">02</h2>
-                    <h3 class="fs-4 fw-bold ls-8 me-n8 mb-4">立體投影技術</h3>
-                    <p class="fw-bold">透過高科技立體投影技術，讓您感受真實的科技世界。</p>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <img src="../assets/images/carousel.png" class="d-block w-100 object-fit-cover" alt="..."
-                    style="height: 560px;">
-                  <div
-                    class="carousel-caption d-flex flex-column justify-content-center align-items-end start-0 end-0 h-100 me-10 text-end">
-                    <h2 class="display-3">03</h2>
-                    <h3 class="fs-4 fw-bold ls-8 me-n8 mb-4">立體投影技術</h3>
-                    <p class="fw-bold">透過高科技立體投影技術，讓您感受真實的科技世界。</p>
+              </div>
+              <!--   Slides   -->
+              <div class="col-md-9 mt-3">
+                <div class="swiper swiperCarousel">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div
+                        class="alphabox d-flex flex-column align-items-start align-items-md-end justify-content-end justify-content-md-center">
+                        <div class="alphabox-intro text-light">
+                          <h3 class="lh-base text-md-end mb-3">
+                            <span class="display-3">01</span><br>
+                            <span class="alphabox-title fs-4 fw-bold">立體投影技術</span>
+                          </h3>
+                          <p class="mb-0 fw-bold">透過高科技立體投影技術，讓您感受真實的科技世界。</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div
+                        class="alphabox d-flex flex-column align-items-start align-items-md-end justify-content-end justify-content-md-center">
+                        <div class="alphabox-intro text-light">
+                          <h3 class="lh-base text-md-end mb-3">
+                            <span class="display-3">02</span><br>
+                            <span class="alphabox-title fs-4 fw-bold">立體投影技術</span>
+                          </h3>
+                          <p class="mb-0 fw-bold">透過高科技立體投影技術，讓您感受真實的科技世界。</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div
+                        class="alphabox d-flex flex-column align-items-start align-items-md-end justify-content-end justify-content-md-center">
+                        <div class="alphabox-intro text-light">
+                          <h3 class="lh-base text-md-end mb-3">
+                            <span class="display-3">03</span><br>
+                            <span class="alphabox-title fs-4 fw-bold">立體投影技術</span>
+                          </h3>
+                          <p class="mb-0 fw-bold">透過高科技立體投影技術，讓您感受真實的科技世界。</p>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-              <button class="carousel-control-next position-static d-none d-lg-flex" type="button"
-                data-bs-target="#indexCarousel" data-bs-slide="next">
-                <svg xmlns="http://www.w3.org/2000/svg" width="180" height="48" viewBox="0 0 180 48" fill="none">
-                  <mask id="mask0_2013_1241" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="180"
-                    height="48">
-                    <rect width="180" height="48" fill="#D9D9D9" />
-                  </mask>
-                  <g mask="url(#mask0_2013_1241)">
-                    <path d="M154 38L160.85 26H4V22H160.85L154 10L176 24L154 38Z" fill="white" />
-                  </g>
-                </svg>
-                <span class="visually-hidden">Next</span>
-              </button>
+              <!--  右箭頭  -->
+              <div class="col-1 d-none d-md-block">
+                <div class="swiper-button-next">
+                  <img src="https://hackmd.io/_uploads/BJUmHUm6n.png" alt="right arrow" class="img-fluid">
+                </div>
+              </div>
             </div>
           </div>
           <div class="container mw-xxxl">
@@ -231,7 +228,8 @@
                 <div class="position-absolute top-50 start-50 translate-middle z-1 bg-dark">
                   <span class="d-inline-block fw-bold text-center">查看更多</span>
                 </div>
-                <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week8-ai/circle.png" alt="" class="alphabox-circle-rotation px-8">
+                <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week8-ai/circle.png"
+                  alt="" class="alphabox-circle-rotation px-8">
               </div>
             </div>
             <p class="d-none d-sm-block fw-bold text-end">為環保盡一份心力，我們的包裝盒和紙質說明書都使用環保材料</p>
@@ -258,79 +256,79 @@
           <span class="d-none d-md-block display-5 fw-bold lh-1 mb-6">✱</span>
           <div class="w-100">
             <div class="w-md-150 swiper-mh position-relative">
-              <div class="swiper mySwiper mb-12">
+              <div class="swiper swiperCard mb-12">
                 <div class="swiper-wrapper">
-                  <div class="swiper-slide p-10">
+                  <div class="swiper-slide swiperCard-slide p-10">
                     <p class="fw-bold mb-8 d-flex align-items-center">Zona<span
                         class="seperator-sm bg-light"></span>Taipei</p>
                     <p class="fw-bold">ALPHABOX+ 真的很夯！每次把它打開，感覺就像是身臨其境一樣。它陪我度過了很多寂寞的時光，讓我在家裡也能享受到優質的休閒時光。</p>
                     <p class="fw-bold mt-auto"><span class="seperator bg-light"></span><span
                         class="seperator bg-light"></span>ALPHABOX+ Dianne</p>
                   </div>
-                  <div class="swiper-slide p-10 bg-light text-dark">
+                  <div class="swiper-slide swiperCard-slide p-10 bg-light text-dark">
                     <p class="fw-bold mb-8 d-flex align-items-center">Lin <span
                         class="seperator-sm bg-dark"></span>Chiayi</p>
                     <p class="fw-bold">非常推薦！它的畫面清晰度超高，真的讓我驚艷不已。而且它還可以和我互動，感覺就像是有個真實的朋友在身邊。</p>
                     <p class="fw-bold mt-auto"><span class="seperator bg-dark"></span><span
                         class="seperator bg-dark"></span>ALPHABOX+ Dianne</p>
                   </div>
-                  <div class="swiper-slide p-10">
-                    <p class="fw-bold mb-8 d-flex align-items-center">云<span
-                        class="seperator-sm bg-light"></span>Taipei</p>
+                  <div class="swiper-slide swiperCard-slide p-10">
+                    <p class="fw-bold mb-8 d-flex align-items-center">云<span class="seperator-sm bg-light"></span>Taipei
+                    </p>
                     <p class="fw-bold">我之前一直在找能陪伴我度過空虛時光的好夥伴，直到遇見 ALPHABOX+。它不僅僅是一個機器人，更像是一個真正的朋友，陪著我分享喜怒哀樂。真的很讚！</p>
                     <p class="fw-bold mt-auto"><span class="seperator bg-light"></span><span
                         class="seperator bg-light"></span>ALPHABOX+ Dianne</p>
                   </div>
-                  <div class="swiper-slide p-10 bg-light text-dark">
+                  <div class="swiper-slide swiperCard-slide p-10 bg-light text-dark">
                     <p class="fw-bold mb-8 d-flex align-items-center">Zichi<span
                         class="seperator-sm bg-dark"></span>Kaohsiung</p>
                     <p class="fw-bold">我之前一直在找能陪伴我度過空虛時光的好夥伴，直到遇見 ALPHABOX+。它不僅僅是一個機器人，更像是一個真正的朋友，陪著我分享喜怒哀樂。真的很讚！</p>
                     <p class="fw-bold mt-auto"><span class="seperator bg-dark"></span><span
                         class="seperator bg-dark"></span>ALPHABOX+ Dianne</p>
                   </div>
-                  <div class="swiper-slide p-10">
+                  <div class="swiper-slide swiperCard-slide p-10">
                     <p class="fw-bold mb-8 d-flex align-items-center">Zona<span
                         class="seperator-sm bg-light"></span>Taipei</p>
                     <p class="fw-bold">ALPHABOX+ 真的很夯！每次把它打開，感覺就像是身臨其境一樣。它陪我度過了很多寂寞的時光，讓我在家裡也能享受到優質的休閒時光。</p>
                     <p class="fw-bold mt-auto"><span class="seperator bg-light"></span><span
                         class="seperator bg-light"></span>ALPHABOX+ Dianne</p>
                   </div>
-                  <div class="swiper-slide p-10 bg-light text-dark">
+                  <div class="swiper-slide swiperCard-slide p-10 bg-light text-dark">
                     <p class="fw-bold mb-8 d-flex align-items-center">Lin <span
                         class="seperator-sm bg-dark"></span>Chiayi</p>
                     <p class="fw-bold">非常推薦！它的畫面清晰度超高，真的讓我驚艷不已。而且它還可以和我互動，感覺就像是有個真實的朋友在身邊。</p>
                     <p class="fw-bold mt-auto"><span class="seperator bg-dark"></span><span
                         class="seperator bg-dark"></span>ALPHABOX+ Dianne</p>
                   </div>
-                  <div class="swiper-slide p-10">
-                    <p class="fw-bold mb-8 d-flex align-items-center">云<span
-                        class="seperator-sm bg-light"></span>Taipei</p>
+                  <div class="swiper-slide swiperCard-slide p-10">
+                    <p class="fw-bold mb-8 d-flex align-items-center">云<span class="seperator-sm bg-light"></span>Taipei
+                    </p>
                     <p class="fw-bold">我之前一直在找能陪伴我度過空虛時光的好夥伴，直到遇見 ALPHABOX+。它不僅僅是一個機器人，更像是一個真正的朋友，陪著我分享喜怒哀樂。真的很讚！</p>
                     <p class="fw-bold mt-auto"><span class="seperator bg-light"></span><span
                         class="seperator bg-light"></span>ALPHABOX+ Dianne</p>
                   </div>
-                  <div class="swiper-slide p-10 bg-light text-dark">
+                  <div class="swiper-slide swiperCard-slide p-10 bg-light text-dark">
                     <p class="fw-bold mb-8 d-flex align-items-center">Zichi<span
                         class="seperator-sm bg-dark"></span>Kaohsiung</p>
                     <p class="fw-bold">讓我在忙碌的工作之餘，也能找到休閒的樂趣。它的互動功能非常有趣，讓我在短短的時間內就愛上了它。給它一百分！</p>
                     <p class="fw-bold mt-auto"><span class="seperator bg-dark"></span><span
                         class="seperator bg-dark"></span>ALPHABOX+ Dianne</p>
                   </div>
-                  <div class="swiper-slide p-10">
+                  <div class="swiper-slide swiperCard-slide p-10">
                     <p class="fw-bold mb-8 d-flex align-items-center">Zona<span
                         class="seperator-sm bg-light"></span>Taipei</p>
                     <p class="fw-bold">ALPHABOX+ 真的很夯！每次把它打開，感覺就像是身臨其境一樣。它陪我度過了很多寂寞的時光，讓我在家裡也能享受到優質的休閒時光。</p>
                     <p class="fw-bold mt-auto"><span class="seperator bg-light"></span><span
                         class="seperator bg-light"></span>ALPHABOX+ Dianne</p>
                   </div>
-                  <div class="swiper-slide invisible d-none d-md-flex">placeholder</div>
+                  <div class="swiper-slide swiperCard-slide invisible d-none d-md-flex">placeholder</div>
                 </div>
               </div>
             </div>
           </div>
           <div class="d-none d-md-flex row d-flex align-items-center pb-2 mb-26">
             <div class="col-8">
-              <div class="swiper-pagination position-static"></div>
+              <div class="swiper-pagination swiperCard-pagination position-static"></div>
             </div>
             <div class="col-4"><span class="d-block font-sans-serif fw-bold text-white">SCROLL</span></div>
           </div>
@@ -375,11 +373,13 @@
           <div class="row" style="--bs-gutter-x: 0.1rem; --bs-gutter-y: 0.1rem;">
             <div class="col-6 col-lg-3">
               <div class="position-relative z-1">
-                <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week8-ai/diane_vertical.png" alt=""
-                  class="position-absolute w-100 h-100 object-fit-cover z-n1">
+                <img
+                  src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week8-ai/diane_vertical.png"
+                  alt="" class="position-absolute w-100 h-100 object-fit-cover z-n1">
                 <div class="bg-dark position-absolute w-100 h-100 opacity-50 z-n1"></div>
                 <a href="#" class="link-light">
-                  <div class="bg-transparent bg-lg-dark bg-transparent-hover d-flex flex-column align-items-center py-6 px-3">
+                  <div
+                    class="bg-transparent bg-lg-dark bg-transparent-hover d-flex flex-column align-items-center py-6 px-3">
                     <span class="d-block display-xl font-saira-ex mb-5">1</span>
                     <span class="d-block fs-4 mb-5 mb-lg-20">Diane</span>
                     <div class="align-items-center">
@@ -403,11 +403,13 @@
             </div>
             <div class="col-6 col-lg-3">
               <div class="position-relative z-1">
-                <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week8-ai/felix_vertical.png" alt=""
-                  class="position-absolute w-100 h-100 object-fit-cover z-n1">
+                <img
+                  src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week8-ai/felix_vertical.png"
+                  alt="" class="position-absolute w-100 h-100 object-fit-cover z-n1">
                 <div class="bg-dark position-absolute w-100 h-100 opacity-50 z-n1"></div>
                 <a href="#" class="link-light">
-                  <div class="bg-transparent bg-lg-dark bg-transparent-hover d-flex flex-column align-items-center py-6 px-3">
+                  <div
+                    class="bg-transparent bg-lg-dark bg-transparent-hover d-flex flex-column align-items-center py-6 px-3">
                     <span class="d-block display-xl font-saira-ex mb-5">2</span>
                     <span class="d-block fs-4 mb-5 mb-lg-20">Felix</span>
                     <div class="align-items-center">
@@ -431,11 +433,13 @@
             </div>
             <div class="col-6 col-lg-3">
               <div class="position-relative z-1">
-                <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week8-ai/karina_verticalgle.png" alt=""
-                  class="position-absolute w-100 h-100 object-fit-cover z-n1">
+                <img
+                  src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week8-ai/karina_verticalgle.png"
+                  alt="" class="position-absolute w-100 h-100 object-fit-cover z-n1">
                 <div class="bg-dark position-absolute w-100 h-100 opacity-50 z-n1"></div>
                 <a href="#" class="link-light">
-                  <div class="bg-transparent bg-lg-dark bg-transparent-hover d-flex flex-column align-items-center py-6 px-3">
+                  <div
+                    class="bg-transparent bg-lg-dark bg-transparent-hover d-flex flex-column align-items-center py-6 px-3">
                     <span class="d-block display-xl font-saira-ex mb-5">3</span>
                     <span class="d-block fs-4 mb-5 mb-lg-20">Karina</span>
                     <div class="align-items-center">
@@ -459,11 +463,13 @@
             </div>
             <div class="col-6 col-lg-3">
               <div class="position-relative z-1">
-                <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week8-ai/vito_vertical.png" alt=""
-                  class="position-absolute w-100 h-100 object-fit-cover z-n1">
+                <img
+                  src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week8-ai/vito_vertical.png"
+                  alt="" class="position-absolute w-100 h-100 object-fit-cover z-n1">
                 <div class="bg-dark position-absolute w-100 h-100 opacity-50 z-n1"></div>
                 <a href="#" class="link-light">
-                  <div class="bg-transparent bg-lg-dark bg-transparent-hover d-flex flex-column align-items-center py-6 px-3">
+                  <div
+                    class="bg-transparent bg-lg-dark bg-transparent-hover d-flex flex-column align-items-center py-6 px-3">
                     <span class="d-block display-xl font-saira-ex mb-5">4</span>
                     <span class="d-block fs-4 mb-5 mb-lg-20">Vito</span>
                     <div class="align-items-center">
@@ -492,7 +498,7 @@
     <%- include('./layout/footer'); -%>
       <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
       <script>
-        var swiper = new Swiper(".mySwiper", {
+        var swiperCard = new Swiper(".swiperCard", {
           // autoHeight: true,
           // centeredSlides: true,
           // centeredSlidesBounds: true,
@@ -523,6 +529,22 @@
           },
           keyboard: {
             enable: true,
+          },
+        });
+        const swiper = new Swiper('.swiperCarousel', {
+          autoplay: {
+            delay: 5000,
+          },
+          breakpoints: {
+            768: {
+              autoplay: {
+                enabled: true,
+              }
+            }
+          },
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
           },
         });
       </script>
